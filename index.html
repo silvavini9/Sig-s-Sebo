@@ -42,11 +42,11 @@
           <input type="text" id="book_author_input" placeholder="Autor" />
           <div class="buttons">
               <input type="button" value="Cadastrar" onclick="cadastro_livros()" />
-              <input type="button" value="Limpar" onclick="limpar_livros()" />
+              <input type="reset" value="Limpar" />
           </div>
         </form>
       </section>
-      <section id="client_register_section" class="hidden">
+      <section id="client_register_section" class="">
         <h2>Cadastro de Clientes</h2>
         <form>
           <input type="text" id="client_name_input" placeholder="Nome" />
@@ -54,7 +54,7 @@
           <input type="text" id="client_andress_input" placeholder="Endereço" />
           <div class="buttons">
               <input type="button" value="Cadastrar" onclick="cadastro_clientes()" />
-              <input type="button" value="Limpar" onclick="limpar_clientes()" />
+              <input type="reset" value="Limpar"/>
           </div>
         </form>
       </section>
@@ -66,12 +66,12 @@
           <input type="text" id="provider_andress_input" placeholder="Endereço" />
           <div class="buttons">
               <input type="button" value="Cadastrar" onclick="cadastro_fornecedor()" />
-              <input type="button" value="Limpar" onclick="limpar_fornecedor()" />
+              <input type="reset" value="Limpar" />
           </div>
         </form>
       </section>
 
-      <section id="stock_section">
+      <section id="stock_section" class="hidden">
         <h2>Estoque</h2>
           <ul>
             <li>
