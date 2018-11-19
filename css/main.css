@@ -131,25 +131,31 @@ ul{
     align-items: center;
     flex-direction: column;
 }
+
 li a{
     font-size: 20px;
 }
+
 #book_register_anchor{
     color: white;
     text-decoration: none;
 }
+
 #client_register_anchor{
     color: white;
     text-decoration: none;
 }
+
 #provider_register_anchor{
     color: white;
     text-decoration: none;
 }
+
 #stock_anchor{
     color: white;
     text-decoration: none;
 }
+
 #seller_anchor{
     color: white;
     text-decoration: none;
@@ -184,23 +190,29 @@ section h2{
 #book_register_section h2{
     color: white;
 }
+
 #client_register_section h2{
     color: white;
 }
+
 #provider_register_section h2{
     color: white;
 }
+
 #stock_section h2{
     color: white;
  
 }
+
 #seller_section h2{
     color: white;
 }
+
 form{
     display: flex;
     flex-direction: column;
 }
+
 form input{
     margin: 5px 10px;
     border: none;
